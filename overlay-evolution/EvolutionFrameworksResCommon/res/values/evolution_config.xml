@@ -62,6 +62,12 @@
     <!-- Whether device supports in-display fingerprint -->
     <bool name="config_supportsUdfps">true</bool>
 
+    <!-- Whether device has SuperDart charging support -->
+    <bool name="config_hasSuperDartCharger">true</bool>
+
+    <!-- Path to fast charging status file to detect whether an oem fast charger is active -->
+    <string name="config_oemFastChargerStatusPath" translatable="false">/sys/devices/virtual/oplus_chg/battery/voocchg_ing</string>
+
     <!-- Smart charging -->
     <bool name="config_smartChargingAvailable">true</bool>
     <string name="config_SmartChargingSysfsNode" translatable="false">/sys/devices/virtual/oplus_chg/battery/mmi_charging_enable</string>

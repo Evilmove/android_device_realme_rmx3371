@@ -27,7 +27,7 @@
     <bool name="config_deviceSupportsHightTouchPollingRate">true</bool> 
 
     <!-- Whether device supports Changing Maximum Brightness -->
-    <bool name="config_deviceSupportsChangingMaxBrightness">true</bool>
+    <bool name="config_deviceSupportsChangingMaxBrightness">false</bool>
 
     <!-- Whether device supports Disabling fsync -->
     <bool name="config_deviceSupportsFSyncOff">false</bool>
@@ -39,12 +39,15 @@
     <bool name="config_deviceSupportsTouchGestures">true</bool>
 
     <!-- Whether device supports USB2.0 Force Fastcharge -->
-    <bool name="config_deviceSupportsUSB2FC">true</bool>
+    <bool name="config_deviceSupportsUSB2FC">false</bool>
 
     <!-- Whether device supports USB-OTG -->
     <bool name="config_deviceSupportsOTG">true</bool>
 
     <!-- Whether device supports Vibration Strength -->
-    <bool name="config_deviceSupportsVibStrength">true</bool>
+    <bool name="config_deviceSupportsVibStrength">false</bool>
+
+    <!-- Whether device supports Microphone Gain -->
+    <bool name="config_deviceSupportsMicGain">true</bool>
 
 </resources>

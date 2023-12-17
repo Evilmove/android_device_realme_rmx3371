@@ -48,6 +48,6 @@
     <bool name="config_deviceSupportsVibStrength">false</bool>
 
     <!-- Whether device supports Microphone Gain -->
-    <bool name="config_deviceSupportsMicGain">true</bool>
+    <bool name="config_deviceSupportsMicGain">false</bool>
 
 </resources>

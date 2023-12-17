@@ -6,6 +6,6 @@
 <resources>
 
     <!-- Smart Charging -->
-    <bool name="config_supportSmartCharging">true</bool>
+    <bool name="config_supportSmartCharging">false</bool>
 
 </resources>
